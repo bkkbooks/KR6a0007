@@ -1,0 +1,62 @@
+canonical_identifier: bkk:krp/KR6a0007/T/v1
+canonical_location: https://kanripo.org/bkk/KR6a0007/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 大般涅槃經
+  identifiers:
+    krp: KR6a0007
+    cbeta: T01n0007
+    cbeta_old_id: T01n0007
+    authorityid: CA0000537
+    json_key: T0007
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T01/T01n0007.xml
+    old_id: T01n0007
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6a0007_000-T.yaml, hash: 'sha256:f31175d25b719f1d1c4aea4a2faa7c7aff3d7ce6ac775652d69d52469c669e3e'}
+  - {seq: 1, filename: KR6a0007_001-T.yaml, hash: 'sha256:73236cd7ee7462d2a7a948160242b70961f53f1cb91da7a63edbd319a84b0b00'}
+  - {seq: 2, filename: KR6a0007_002-T.yaml, hash: 'sha256:68e14ee43214a5aa32c9b3b54bce93e5833e88bf73b2b8ee41d88c684d17c64d'}
+  - {seq: 3, filename: KR6a0007_003-T.yaml, hash: 'sha256:f56fa58609bd54f10a9c18f70067ff0a13ada0789af84d6d26c1ad5b34209f6a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6a0007_000-T.markers.yaml, hash: 'sha256:16e5188ecacc7da27b40218289133dcb5e0a983ab05f7f51644bb8e5fa591ce8'}
+  - {seq: 1, role: markers, filename: assets/KR6a0007_001-T.markers.yaml, hash: 'sha256:eb39ccb8b835601bd19890a3b42b107ff27b078931078a802c7203a83016c1ec'}
+  - {seq: 2, role: markers, filename: assets/KR6a0007_002-T.markers.yaml, hash: 'sha256:1460de8023d4972ea295976f0d36522760f3120e2fcddcbafc1f68365dad9588'}
+  - {seq: 3, role: markers, filename: assets/KR6a0007_003-T.markers.yaml, hash: 'sha256:ff1f9c0df5c17784389603f85e6f3e3fd2a2d8f3d9f812bf091c2e0b9c05b4b7'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6a0007_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 7020
+  label: 大般涅槃經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6a0007_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 7857
+  label: 大般涅槃經卷中
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6a0007_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 7613
+  label: 大般涅槃經卷下
+  type: juan
+  level: 1
+hash: sha256:908c6639d474b72a8274c9aa04f6e801906cdee3a7d8f4a281b162c6c0754ff9
