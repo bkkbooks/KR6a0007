@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6a0007/v1
 canonical_location: https://kanripo.org/bkk/KR6a0007/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 大般涅槃經
   identifiers:
@@ -31,14 +31,14 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6a0007_000.yaml, hash: 'sha256:f31175d25b719f1d1c4aea4a2faa7c7aff3d7ce6ac775652d69d52469c669e3e'}
-  - {seq: 1, filename: KR6a0007_001.yaml, hash: 'sha256:73236cd7ee7462d2a7a948160242b70961f53f1cb91da7a63edbd319a84b0b00'}
-  - {seq: 2, filename: KR6a0007_002.yaml, hash: 'sha256:68e14ee43214a5aa32c9b3b54bce93e5833e88bf73b2b8ee41d88c684d17c64d'}
-  - {seq: 3, filename: KR6a0007_003.yaml, hash: 'sha256:f56fa58609bd54f10a9c18f70067ff0a13ada0789af84d6d26c1ad5b34209f6a'}
+  - {seq: 1, filename: KR6a0007_001.yaml, hash: 'sha256:e76020850b8f6f3a9e82f39fcbb2eedb40c02c328c8e1593ebbde98fed56465c'}
+  - {seq: 2, filename: KR6a0007_002.yaml, hash: 'sha256:b1c78b5e4b9706f3bdf90381b31d7ede4ef17c2f71ff066c8581c467eee75a5f'}
+  - {seq: 3, filename: KR6a0007_003.yaml, hash: 'sha256:e0f280567ed1d253d10bb90600d574b40ada8096963e69ac3e97053db4df3014'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6a0007_000.markers.yaml, hash: 'sha256:ffe865ac6ee7b5f225ebecbf6e25b981ccfe1fab3d63e35f6551ddfbc27bb7cf'}
-  - {seq: 1, role: markers, filename: assets/KR6a0007_001.markers.yaml, hash: 'sha256:4effd9041b0698cd8c4571d20c60813b4779c9c4393651c962ca3f0ef756905c'}
-  - {seq: 2, role: markers, filename: assets/KR6a0007_002.markers.yaml, hash: 'sha256:9cb0ee7c95831cf60ca8a07584e6beac1517026736a5d6b3c954616e0691b988'}
-  - {seq: 3, role: markers, filename: assets/KR6a0007_003.markers.yaml, hash: 'sha256:e1fef8c92f3c20bac66308ca269518716a8bcba787ae1055681720fa577df5ce'}
+  - {seq: 1, role: markers, filename: assets/KR6a0007_001.markers.yaml, hash: 'sha256:779428a3760d7313b7d856c35b0426b3cae92998e3f69be66f26bd721ed91fe7'}
+  - {seq: 2, role: markers, filename: assets/KR6a0007_002.markers.yaml, hash: 'sha256:7fc37b6e90ba8e929bc144f9d07242d642cfb41b4493a20f56ca3713a0e40478'}
+  - {seq: 3, role: markers, filename: assets/KR6a0007_003.markers.yaml, hash: 'sha256:f4cbfbc5da37f01d5535d0c23e4e56b51f3236d181cee5d82df0c243505fed0e'}
 table_of_contents:
 - ref:
     seq: 1
@@ -70,4 +70,7 @@ table_of_contents:
   label: 大般涅槃經卷下
   type: juan
   level: 1
-hash: sha256:4f403190a719157072a25b757d2a18efd8f99f0a74a485b03c2f1e7e0e830f9e
+hash: sha256:92746f127b1d1ea535a29223e6a1070086a3a734ea7318f15a6bf18870de6c18
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
